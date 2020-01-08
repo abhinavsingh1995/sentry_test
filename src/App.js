@@ -66,7 +66,7 @@ function sendToSentry(){
   xhr.send(JSON.stringify({ 
     "comments": "Its broken",
     "email":"bahin@shoa.com",
-    "event_id":"213cb4911fb5461191e1b97dac6aa230",
+    "event_id":"213cb4911fb5461191e1b97dac6aa301",
     "name":"abhinav"
   }))
   console.log(xhr.responseText);
