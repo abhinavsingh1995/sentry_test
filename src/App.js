@@ -59,15 +59,15 @@ function sendToSentry(){
 
   xhr.setRequestHeader('Authorization','Bearer 1c0932a0af29448fb969324713fac8a7e09901c042e54c1f90a6475017e9cda8');
   xhr.setRequestHeader('Content-Type', 'application/json');
-  // xhr.setRequestHeader('Access-Control-Allow-Headers','*');
-  // xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
+  xhr.setRequestHeader('Access-Control-Allow-Headers','*');
+  xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
   
   // send the request
   xhr.send(JSON.stringify({ 
-    "comments": "Its broken",
-    "email":"bahin@shoa.com",
-    "event_id":"213cb4911fb5461191e1b97dac6aa301",
-    "name":"abhinav"
+    "comments": "CORS-ISSUSE'S",
+    "email":"abhinav@abhinav.com",
+    "event_id":"213cb4911fb5461191e1b97dac6aa306",
+    "name":"singh"
   }))
   console.log(xhr.responseText);
   console.log("done");
